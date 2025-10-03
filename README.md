@@ -138,6 +138,45 @@ The Golokaverse aims to establish a self-sufficient, decentralized, and cultural
 
 ---
 
+## 🏗️ Current Project Status & Codebase Structure
+
+This repository has been initialized with the full architectural structure required for the four-phase roadmap. **All directories are now tracked by Git.**
+
+### Repository Structure
+
+The codebase is organized into five major, specialized modules:
+
+| Directory | Purpose | Primary Technology | Phase 1 Focus |
+| :--- | :--- | :--- | :--- |
+| **`core/`** | The underlying Web4 infrastructure (P2P networking, DFS, common libraries). | Rust / Go | Protocol Adaptation, Data Structures, P2P Stubs |
+| **`id-chain/`** | The Goloka Identity and Governance Ledger. | Substrate / Cosmos | Node Setup, DID Schema Definition |
+| **`browser-client/`** | The user-facing application and runtime environment. | TypeScript / Rust (Wasm) | UI Prototyping, Wasm Toolchain Setup |
+| **`ai-agent/`** | AI Module for content policy, regulation, and curation. | Python / TensorFlow Lite | Data Collection Tools, Model Structuring |
+| **`embedded-os/`** | Configuration for the specialized Goloka Node hardware OS. | Buildroot / Yocto / Linux | Build Configuration Placeholders |
+
+---
+
+## 🤝 Getting Started & Governance
+
+### Contributor Onboarding
+
+1.  **Clone the Repository:**
+    ```bash
+    git clone [YOUR REPO URL]
+    cd golokaverseCode
+    ```
+2.  **Run Setup Script:** This script will install core toolchains (Rust, Wasm target, etc.).
+    ```bash
+    ./scripts/setup.sh
+    ```
+
+### Standards & Legal
+
+* **Contribution Rules:** All commit messages **MUST** follow the **Conventional Commits** specification. Detailed guidelines are in **`CONTRIBUTING.md`**.
+* **Vulnerability Reporting:** Please report any security issues privately as directed in **`SECURITY.md`**.
+* **Licensing:** This project is released under the **MIT License**. See **`LICENSE`** for details.
+
+---
 
 
 \## Project Roadmap: Four Phases
