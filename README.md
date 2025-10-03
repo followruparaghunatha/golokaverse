@@ -1,7 +1,3 @@
-"# golokaverse"
-
-
-
 \# Golokaverse Master Project Plan: Ultimate Vedic Internet Platform
 
 
@@ -18,17 +14,17 @@ The Golokaverse aims to establish a self-sufficient, decentralized, and cultural
 
 
 
-| Element | Description | 
+| Element | Description |
 
 | :--- | :--- |
 
-| \*\*Mission\*\* | To establish the Golokaverse: The Sovereign Web4 Platform—a protected, privately owned, and privately regulated digital ecosystem where Vedic culture can thrive, actively excluding content and activities that foster irreligion. | 
+| \*\*Mission\*\* | To establish the Golokaverse: The Sovereign Web4 Platform—a protected, privately owned, and privately regulated digital ecosystem where Vedic culture can thrive, actively excluding content and activities that foster irreligion. |
 
-| \*\*Aesthetic\*\* | Clean, Futuristic, Interconnected Nodes, Warm Color Palette (Gold, Deep Blues/Greens), emphasizing \*\*Sovereignty, Privacy, and Dharma\*\*. | 
+| \*\*Aesthetic\*\* | Clean, Futuristic, Interconnected Nodes, Warm Color Palette (Gold, Deep Blues/Greens), emphasizing \*\*Sovereignty, Privacy, and Dharma\*\*. |
 
-| \*\*Core Principle\*\* | \*\*Your Browser IS the Network.\*\* Total decentralization, client-side regulation (\*\*AI Agent\*\*), and \*\*user ownership\*\* over data and domains. | 
+| \*\*Core Principle\*\* | \*\*Your Browser IS the Network.\*\* Total decentralization, client-side regulation (\*\*AI Agent\*\*), and \*\*user ownership\*\* over data and domains. |
 
-| \*\*Vedic Content Policy (AUP)\*\* | The foundational policy that actively excludes irreligion and forms the basis for all content regulation and moderation. | 
+| \*\*Vedic Content Policy (AUP)\*\* | The foundational policy that actively excludes irreligion and forms the basis for all content regulation and moderation. |
 
 
 
@@ -46,21 +42,21 @@ The Golokaverse aims to establish a self-sufficient, decentralized, and cultural
 
 \* \*\*Custom Web4 Protocol Stack:\*\*
 
-&nbsp; \* \*\*Goloka P2P:\*\* Custom peer-to-peer communication layer.
+&nbsp;   \* \*\*Goloka P2P:\*\* Custom peer-to-peer communication layer.
 
-&nbsp; \* \*\*Distributed File System (DFS):\*\* Client-side encryption and IPFS-lite logic for redundant data storage across Goloka Nodes.
+&nbsp;   \* \*\*Distributed File System (DFS):\*\* Client-side encryption and IPFS-lite logic for redundant data storage across Goloka Nodes.
 
-&nbsp; \* \*\*ID Chain Protocol:\*\* For digital identities (DIDs) and domain ownership records.
+&nbsp;   \* \*\*ID Chain Protocol:\*\* For digital identities (DIDs) and domain ownership records.
 
 \* \*\*Goloka Browser (Desktop Alpha \& Mobile Light Client):\*\*
 
-&nbsp; \* \*\*Custom Browser UI/UX:\*\* Sleek, minimalist interface integrating DFS, DNS, ID Chain, and Resolver modules.
+&nbsp;   \* \*\*Custom Browser UI/UX:\*\* Sleek, minimalist interface integrating DFS, DNS, ID Chain, and Resolver modules.
 
-&nbsp; \* \*\*Goloka Resolver Integration:\*\* Custom DNS resolution logic, prioritizing Goloka TLDs (`.goloka`, `.myid`), then forwarding to Web3/Web2.
+&nbsp;   \* \*\*Goloka Resolver Integration:\*\* Custom DNS resolution logic, prioritizing Goloka TLDs (`.goloka`, `.myid`), then forwarding to Web3/Web2.
 
-&nbsp; \* \*\*Light Client Implementation:\*\* Minimal blockchain client running efficiently within the browser/embedded environment.
+&nbsp;   \* \*\*Light Client Implementation:\*\* Minimal blockchain client running efficiently within the browser/embedded environment.
 
-&nbsp; \* \*\*Developer SDK:\*\* APIs for third-party developers to build Vedic-aligned dApps.
+&nbsp;   \* \*\*Developer SDK:\*\* APIs for third-party developers to build Vedic-aligned dApps.
 
 
 
@@ -130,9 +126,9 @@ The Golokaverse aims to establish a self-sufficient, decentralized, and cultural
 
 \* \*\*LoRaWAN Mesh Integration:\*\*
 
-&nbsp; \* Uses a FOSS LoRa Mesh Networking Stack (\*\*Meshtastic\*\*) for long-range P2P discovery and communication between Goloka Nodes.
+&nbsp;   \* Uses a FOSS LoRa Mesh Networking Stack (\*\*Meshtastic\*\*) for long-range P2P discovery and communication between Goloka Nodes.
 
-&nbsp; \* Creates a robust mesh network, especially useful in areas with limited traditional internet access.
+&nbsp;   \* Creates a robust mesh network, especially useful in areas with limited traditional internet access.
 
 \* \*\*Custom DNS Resolution (Goloka Resolver):\*\* Prioritizes Goloka TLDs, ensuring resolution within the sovereign Web4 ecosystem before potentially forwarding to Web3/Web2.
 
@@ -156,15 +152,15 @@ This phase focuses on the underlying decentralized protocols and the base operat
 
 
 
-| Milestone | Projects \& Key Tasks | FOSS Resources \& Links | 
+| Milestone | Projects \& Key Tasks | FOSS Resources \& Links |
 
-| :--- | :--- | :--- | 
+| :--- | :--- | :--- |
 
-| \*\*M1.1: Web4 Protocol Stack Design\*\* | P1.1: Whitepaper \& Specification: Define the custom Goloka P2P, DFS, and ID Chain protocols, including the Vedic Content Policy (AUP). P1.2: Core FOSS Selection \& Forking: Select and fork a lightweight browser engine and embedded OS. | LibP2P/WebRTC APIs, IPFS Specification, WebRTC Native Code (C++), ipfs-embed (Rust/Go) | 
+| \*\*M1.1: Web4 Protocol Stack Design\*\* | P1.1: Whitepaper \& Specification: Define the custom Goloka P2P, DFS, and ID Chain protocols, including the Vedic Content Policy (AUP). P1.2: Core FOSS Selection \& Forking: Select and fork a lightweight browser engine and embedded OS. | LibP2P/WebRTC APIs, IPFS Specification, WebRTC Native Code (C++), ipfs-embed (Rust/Go) |
 
-| \*\*M1.2: P2P \& DFS Protocol Implementation\*\* | P1.3: P2P Network Module (Native): Integrate/customize WebRTC/LibP2P for secure device-to-device communication. P1.4: Integrated File System (DFS): Implement client-side encryption and IPFS-lite logic for redundant data storage. | Chromium/Gecko Source (for Browser Core) | 
+| \*\*M1.2: P2P \& DFS Protocol Implementation\*\* | P1.3: P2P Network Module (Native): Integrate/customize WebRTC/LibP2P for secure device-to-device communication. P1.4: Integrated File System (DFS): Implement client-side encryption and IPFS-lite logic for redundant data storage. | Chromium/Gecko Source (for Browser Core) |
 
-| \*\*M1.3: Goloka ID Chain Prototype (Identity \& Domain Ledger)\*\* | P1.5: Blockchain Selection \& Setup: Choose framework (Substrate/Cosmos) and design schema for DIDs and domain ownership. P1.6: Light Client Implementation: Build a minimal light client for the browser/embedded environment. | Substrate Framework, Cosmos SDK | 
+| \*\*M1.3: Goloka ID Chain Prototype (Identity \& Domain Ledger)\*\* | P1.5: Blockchain Selection \& Setup: Choose framework (Substrate/Cosmos) and design schema for DIDs and domain ownership. P1.6: Light Client Implementation: Build a minimal light client for the browser/embedded environment. | Substrate Framework, Cosmos SDK |
 
 
 
@@ -176,15 +172,15 @@ This phase integrates all core components into the browser interface and builds 
 
 
 
-| Milestone | Projects \& Key Tasks | FOSS Resources \& Links | 
+| Milestone | Projects \& Key Tasks | FOSS Resources \& Links |
 
-| :--- | :--- | :--- | 
+| :--- | :--- | :--- |
 
-| \*\*M2.1: Desktop Browser Alpha (Goloka Browser)\*\* | P2.1: Custom Browser UI/UX: Design and integrate all module icons (DFS, DNS, ID Chain, Resolver). P2.2: Goloka Resolver Integration: Integrate custom DNS resolution logic (Goloka TLDs first) into the browser’s network stack. | Chromium/Gecko UI/UX Layer, Unbound principles (for Resolver Logic) | 
+| \*\*M2.1: Desktop Browser Alpha (Goloka Browser)\*\* | P2.1: Custom Browser UI/UX: Design and integrate all module icons (DFS, DNS, ID Chain, Resolver). P2.2: Goloka Resolver Integration: Integrate custom DNS resolution logic (Goloka TLDs first) into the browser’s network stack. | Chromium/Gecko UI/UX Layer, Unbound principles (for Resolver Logic) |
 
-| \*\*M2.2: AI Regulator Training \& Optimization\*\* | P2.3: Dataset Curation (Vedic AUP): Collect and meticulously label "lawful" and "unlawful" content examples. P2.4: Model Training (AI Agent v1): Train and quantize multimodal models (Text/Vision) for on-device inference. | TensorFlow Lite (TFLite), ONNX Runtime, Hugging Face/Keras | 
+| \*\*M2.2: AI Regulator Training \& Optimization\*\* | P2.3: Dataset Curation (Vedic AUP): Collect and meticulously label "lawful" and "unlawful" content examples. P2.4: Model Training (AI Agent v1): Train and quantize multimodal models (Text/Vision) for on-device inference. | TensorFlow Lite (TFLite), ONNX Runtime, Hugging Face/Keras |
 
-| \*\*M2.3: AI Regulator Integration (Core Feature)\*\* | P2.5: Runtime Implementation: Integrate TFLite/ONNX runtime into the browser's C++/JS layer. P2.6: Interception Hooks: Implement hooks to intercept content at the point of origin and consumption for real-time AI filtering. | WebAssembly (Wasm), Native Browser APIs (C++/Rust) | 
+| \*\*M2.3: AI Regulator Integration (Core Feature)\*\* | P2.5: Runtime Implementation: Integrate TFLite/ONNX runtime into the browser's C++/JS layer. P2.6: Interception Hooks: Implement hooks to intercept content at the point of origin and consumption for real-time AI filtering. | WebAssembly (Wasm), Native Browser APIs (C++/Rust) |
 
 
 
@@ -196,15 +192,15 @@ This phase extends the Golokaverse to a dedicated, resilient physical platform a
 
 
 
-| Milestone | Projects \& Key Tasks | FOSS Resources \& Links | 
+| Milestone | Projects \& Key Tasks | FOSS Resources \& Links |
 
-| :--- | :--- | :--- | 
+| :--- | :--- | :--- |
 
-| \*\*M3.1: Embedded OS \& Hardware Node Prototype\*\* | P3.1: Hardware Selection \& Procurement: Finalize choice of low-power SBC with NPU/AI acceleration. P3.2: Embedded OS Customization: Use Buildroot/Yocto to create a minimal, hardened Linux image optimized for the P2P stack and light client. | Buildroot / Yocto Project, Raspberry Pi OS / Ubuntu Core | 
+| \*\*M3.1: Embedded OS \& Hardware Node Prototype\*\* | P3.1: Hardware Selection \& Procurement: Finalize choice of low-power SBC with NPU/AI acceleration. P3.2: Embedded OS Customization: Use Buildroot/Yocto to create a minimal, hardened Linux image optimized for the P2P stack and light client. | Buildroot / Yocto Project, Raspberry Pi OS / Ubuntu Core |
 
-| \*\*M3.2: LoRaWAN Mesh \& Solar Power Integration\*\* | P3.3: LoRa Mesh Stack Implementation: Integrate a FOSS LoRa mesh networking stack (\*\*Meshtastic\*\*). P3.4: Power Management Circuitry: Design and test solar panel, MPPT charge controller, and low-temperature battery management system. | Meshtastic, ChirpStack, Open Hardware MPPT designs | 
+| \*\*M3.2: LoRaWAN Mesh \& Solar Power Integration\*\* | P3.3: LoRa Mesh Stack Implementation: Integrate a FOSS LoRa mesh networking stack (\*\*Meshtastic\*\*). P3.4: Power Management Circuitry: Design and test solar panel, MPPT charge controller, and low-temperature battery management system. | Meshtastic, ChirpStack, Open Hardware MPPT designs |
 
-| \*\*M3.3: Mobile Light Client Beta\*\* | P3.5: Mobile App Development (Client Interface): Develop a "light client" mobile app (Android/iOS) to interface with the dedicated Goloka Node. P3.6: P2P Handoff \& Battery Optimization: Implement efficient WebRTC/P2P mechanisms to manage connections and battery life. | Flutter/React Native, WebRTC/IPFS Mobile SDKs | 
+| \*\*M3.3: Mobile Light Client Beta\*\* | P3.5: Mobile App Development (Client Interface): Develop a "light client" mobile app (Android/iOS) to interface with the dedicated Goloka Node. P3.6: P2P Handoff \& Battery Optimization: Implement efficient WebRTC/P2P mechanisms to manage connections and battery life. | Flutter/React Native, WebRTC/IPFS Mobile SDKs |
 
 
 
@@ -216,15 +212,15 @@ This phase establishes the long-term sustainability, community management, and w
 
 
 
-| Milestone | Projects \& Key Tasks | FOSS Resources \& Links | 
+| Milestone | Projects \& Key Tasks | FOSS Resources \& Links |
 
-| :--- | :--- | :--- | 
+| :--- | :--- | :--- |
 
-| \*\*M4.1: Final Governance Model \& DAO\*\* | P4.1: Governance Smart Contracts: Deploy smart contracts on the Goloka ID Chain for voting and dispute resolution related to the AUP and domain enforcement. P4.2: Community Stewardship Platform: Tools for designated community members to review AI-flagged content/domains and vote on appeals. | OpenZeppelin (Smart Contracts), Aragon/DAOstack (DAO frameworks) | 
+| \*\*M4.1: Final Governance Model \& DAO\*\* | P4.1: Governance Smart Contracts: Deploy smart contracts on the Goloka ID Chain for voting and dispute resolution related to the AUP and domain enforcement. P4.2: Community Stewardship Platform: Tools for designated community members to review AI-flagged content/domains and vote on appeals. | OpenZeppelin (Smart Contracts), Aragon/DAOstack (DAO frameworks) |
 
-| \*\*M4.2: Domain \& Identity Launch\*\* | P4.3: Goloka Root DNS Public Launch: Open the registry for Web4 TLDs (`.goloka`, `.myid`, etc.) under the regulated framework. P4.4: Identity Attestation: Begin onboarding users to create sovereign, attested Vedic DIDs on the ID Chain. | Custom Domain Registration UI | 
+| \*\*M4.2: Domain \& Identity Launch\*\* | P4.3: Goloka Root DNS Public Launch: Open the registry for Web4 TLDs (`.goloka`, `.myid`, etc.) under the regulated framework. P4.4: Identity Attestation: Begin onboarding users to create sovereign, attested Vedic DIDs on the ID Chain. | Custom Domain Registration UI |
 
-| \*\*M4.3: Platform Launch \& Ecosystem Growth\*\* | P4.5: Developer SDK Release: Release APIs for third-party developers to build Vedic-aligned dApps within the Golokaverse. P4.6: Global Node Deployment: Distribute the solar-powered Goloka Node hardware to key communities globally. | Custom Goloka SDK Documentation | 
+| \*\*M4.3: Platform Launch \& Ecosystem Growth\*\* | P4.5: Developer SDK Release: Release APIs for third-party developers to build Vedic-aligned dApps within the Golokaverse. P4.6: Global Node Deployment: Distribute the solar-powered Goloka Node hardware to key communities globally. | Custom Goloka SDK Documentation |
 
 
 
